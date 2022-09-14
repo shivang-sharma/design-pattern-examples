@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>React Component Decorator Design Pattern</title>
+    <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+
+    <!-- Don't use this in production: -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <style>
+        .bt {
+            padding: 2px 2px;
+            border: 10px solid;
+        }
+        .bt-green {
+            border-color: green;
+        }
+
+        .bt-red {
+            border-color: red;
+        }
+        .bg-green {
+            background-color: lightgreen;
+        }
+        .bg-red {
+            background-color: red;
+        }
+        .cc-green {
+            color: green;
+        }
+        .cc-red {
+            color: red;
+        }
+        .cf-small {
+            font-size: 42px;
+        }
+        .cf-medium {
+            font-size: 62px;
+        }
+        .cf-large {
+            font-size: 82px;
+        }
+    </style>
+  </head>
+  <body>
+    <h1>React Component Decorator Design Pattern</h1>
+    <script type="text/babel" src="ReactComponentDecoratorDesignPattern.js"></script>
+    <div id="root"></div>
+    <!--
+      Note: this page is a great way to try React but it's not suitable for production.
+      It slowly compiles JSX with Babel in the browser and uses a large development build of React.
+
+      Read this section for a production-ready setup with JSX:
+      https://reactjs.org/docs/add-react-to-a-website.html#add-jsx-to-a-project
+
+      In a larger project, you can use an integrated toolchain that includes JSX instead:
+      https://reactjs.org/docs/create-a-new-react-app.html
+
+      You can also use React without JSX, in which case you can remove Babel:
+      https://reactjs.org/docs/react-without-jsx.html
+    -->
+  </body>
+</html>
