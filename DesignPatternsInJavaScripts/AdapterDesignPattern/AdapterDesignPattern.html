@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>The Adapter Design Pattern</title>
+        <style>
+            .box {
+                padding: 20px 20px 20px 20px;
+                width: 150px;
+                margin: 10px 10px 10px 10px;
+                border-style: solid;
+                border: 5px 5px 5px 5px;
+                border-color: black;
+                border-width: 5px;
+            }
+            .box-leagcy {
+                background-color: white;
+            }
+            .box-yellow {
+                background-color: yellow;
+            }
+            .box-blue {
+                background-color: lightblue;
+            }
+            .box-orange {
+                background-color: orange;
+            }
+            .button {
+                padding: 10px 10px 10px 10px;
+                width: 130px;
+                margin: 5px 5px 5px 5px;
+                background-color: pink;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>The Adapter Design Pattern</h1>
+        <script src="AdapterDesignPattern.js"></script>
+        <div id="button-container">
+            <div class="button" box-type="legacy"">
+                Draw Legacy Box
+            </div>
+            <div class="button" box-type="orange">
+                Draw Orange Box
+            </div>
+            <div class="button" box-type="yellow">
+                Draw yellow Box
+            </div>
+            <div class="button" box-type="blue">
+                Draw blue Box
+            </div>
+        </div>
+        <div id="root">
+
+        </div>
+    </body>
+</html>
