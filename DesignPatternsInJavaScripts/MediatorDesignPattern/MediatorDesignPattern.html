@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Mediator Design pattern
+        </title>
+        <style>
+            .button {
+                width: 100px;
+                height: 30px;
+                padding-left: 15px;
+                padding-top: 15px;
+                margin-top: 5px;
+                margin-bottom: 5px;
+                border-style: solid;
+                border: 5px 5px 5px 5px;
+                border-color: black;
+                background-color: pink;
+            }
+            .input {
+                width: 100px;
+                height: 15px;
+                padding-left: 15px;
+                padding-top: 15px;
+                padding-bottom: 10px;
+                margin-top: 5px;
+                margin-bottom: 5px;
+                border-style: solid;
+                border: 5px 5px 5px 5px;
+                border-color: black;
+                background-color: white;
+            }
+            .box {
+                width: 250px;
+                height: 150px;
+                padding-left: 15px;
+                padding-right: 15px;
+                padding-top: 15px;
+                background-color: pink;
+                margin-top: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <script src="MediatorDesignPattern.js"></script>
+        <div id="bug-framework">
+            <div class="button" id="create-bug">
+                Create Bug
+            </div>
+            <input type="text" class="input" id="bug-id-input" value="2"/>
+            <div class="button" id="status-debugging">
+                Debugging
+            </div>
+            <div class="button" id="status-fixed">
+                Fixed
+            </div>
+            <div class="button" id="status-tested">
+                Tested
+            </div>
+            <div class="button" id="status-closed">
+                Closed
+            </div>
+            <div class="box" id="bug-details">
+            </div>
+        </div>
+    </body>
+</html>
